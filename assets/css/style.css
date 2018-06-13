@@ -286,10 +286,13 @@ button :hover {
  @media screen and (max-width: 980px) { 
     .headerContainer {
         position: static;
+        width: 100%;
+        margin: 0;
     }
 
     .img {
         width: 100%;
+        margin: 20px;
     }
 
     .internalContainer {
@@ -309,10 +312,12 @@ button :hover {
     
     .headerContainer {
         position: static;
+        width: 100%;
+        margin: 0;
     }
 
     .img {
-        width: 100%;
+        width: 75%;
     }
 
     .para1 {
@@ -347,6 +352,12 @@ button :hover {
 
     .headerContainer {
         position: static;
+        width: 100%;
+    }
+
+    .img {
+        width: 50%;
+        float: none;
     }
 
     .para1 {
@@ -355,7 +366,7 @@ button :hover {
     }
 
     .internalContainer {
-        width: 50%;
+        width: 75%;
         margin: 30px;
         height: 1300px;
         margin-right: 70px;
